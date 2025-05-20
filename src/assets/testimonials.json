@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Budi S. Nugroho",
+    "position": "CEO",
+    "review": "Saya pakai Sedap untuk katering kantor. Kualitas makanannya konsisten dan pengirimannya selalu tepat waktu.",
+    "rating": 4.4,
+    "avatar": "https://avatar.iran.liara.run/public/11"
+  },
+  {
+    "name": "Rian F. Hidayat",
+    "position": "Manajer Penjualan",
+    "review": "Sedap bikin hidup saya lebih gampang. Tinggal klik, makanan enak langsung sampai. Harganya juga bersahabat.",
+    "rating": 4.5,
+    "avatar": "https://avatar.iran.liara.run/public/50"
+  },
+  {
+    "name": "Andi M. Rahman",
+    "position": "Marketing Manager",
+    "review": "Sedap ngebantu banget pas saya nggak sempet masak. Menu variatif, rasanya cocok di lidah, dan selalu fresh.",
+    "rating": 4.8,
+    "avatar": "https://avatar.iran.liara.run/public/51"
+  },
+    {
+    "name": "Sari A. Putri",
+    "position": "Desainer Produk",
+    "review": "Sedap benar-benar membantu saya dalam memilih makanan sehat yang tetap enak. Cocok banget buat saya yang sibuk kerja.",
+    "rating": 4.7,
+    "avatar": "https://avatar.iran.liara.run/public/41"
+  },
+   {
+    "name": "Lina K. Saraswati",
+    "position": "Lead Desain",
+    "review": "Awalnya coba iseng, tapi ternyata menunya enak-enak dan bergizi. Sekarang jadi langganan tiap minggu!",
+    "rating": 4.3,
+    "avatar": "https://avatar.iran.liara.run/public/78"
+  }
+]

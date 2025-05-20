@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Bakso Aci Level 10",
+    "price": 25000,
+    "image": "/img/produk1.png"
+  },
+  {
+    "id": 2,
+    "name": "Seblak Jeletet Bandung",
+    "price": 18000,
+    "image": "/img/produk2.png"
+  },
+  {
+    "id": 3,
+    "name": "Tahu Mercon Pedas",
+    "price": 15000,
+    "image": "/img/produk3.png"
+  },
+  {
+    "id": 4,
+    "name": "Makaroni Ngehe",
+    "price": 12000,
+    "image": "/img/produk4.png"
+  },
+  {
+    "id": 5,
+    "name": "Cimol Meledak",
+    "price": 10000,
+    "image": "/img/produk5.png"
+  }
+]

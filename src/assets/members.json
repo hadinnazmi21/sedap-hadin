@@ -1,0 +1,38 @@
+[
+  {
+    "member_id": 1,
+    "nama": "Andi Saputra",
+    "email": "andi@gmail.com",
+    "tipe_member": "silver"
+  },
+  {
+    "member_id": 2,
+    "nama": "Budi Santoso",
+    "email": "budi@gmail.com",
+    "tipe_member": "gold"
+  },
+  {
+    "member_id": 3,
+    "nama": "Citra Dewi",
+    "email": "citra@gmail.com",
+    "tipe_member": "platinum"
+  },
+  {
+    "member_id": 4,
+    "nama": "Dewi Lestari",
+    "email": "dewi@gmail.com",
+    "tipe_member": "silver"
+  },
+  {
+    "member_id": 5,
+    "nama": "Eko Prasetyo",
+    "email": "eko@gmail.com",
+    "tipe_member": "gold"
+  },
+  {
+    "member_id": 6,
+    "nama": "Zayyan",
+    "email": "zayyan@gmail.com",
+    "tipe_member": "HAMA"
+  }
+]
