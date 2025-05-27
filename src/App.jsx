@@ -20,6 +20,7 @@ const Orders = React.lazy(() => import("./pages/Order"));
 const Customer = React.lazy(() => import("./pages/Customer"));
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Home = React.lazy(() => import("./pages/Guest/Home"));
+const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
 
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
@@ -49,6 +50,7 @@ function App() {
           <Route path="/FormOrder" element={<FormOrder />} />
           <Route path="/UserlIst" element={<UserList />} />
           <Route path="/Products" element={<Products />} />
+          <Route path="/products/:id" element={<ProductDetail />} /> 
         </Route>
 
         <Route element={<MainLayoutGuest />}>
