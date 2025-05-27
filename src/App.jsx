@@ -9,6 +9,7 @@ import FormCustomer from "./pages/FormCustomer";
 import Loading from "./components/Loading";
 import UserList from "./pages/UserList";
 import MainLayoutGuest from "./layouts/MainLayoutGuest";
+import Products from "./pages/Products";
 const FormOrder = React.lazy(() => import("./pages/FormOrder"));
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
 const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"));
@@ -47,6 +48,7 @@ function App() {
           <Route path="/FormCustomer" element={<FormCustomer />} />
           <Route path="/FormOrder" element={<FormOrder />} />
           <Route path="/UserlIst" element={<UserList />} />
+          <Route path="/Products" element={<Products />} />
         </Route>
 
         <Route element={<MainLayoutGuest />}>
