@@ -1,3 +1,4 @@
+import { CgNotes } from "react-icons/cg"; 
 import { BiError } from "react-icons/bi"; 
 import { FaUserAlt } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
@@ -45,6 +46,7 @@ export default function Sidebar() {
         <ListMenu id="menu-4" to="/ErrorPage400" icon={<BiError />} label="ErrorPage400" />
         <ListMenu id="menu-5" to="/ErrorPage401" icon={<BiError />} label="ErrorPage401" />
         <ListMenu id="menu-6" to="/ErrorPage403" icon={<BiError />} label="ErrorPage403" />
+        <ListMenu id="menu-7" to="/Notes" icon={<CgNotes />} label="Notes" />
       </ul>
     </div>
 

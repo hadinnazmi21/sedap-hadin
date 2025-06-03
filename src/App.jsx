@@ -21,6 +21,7 @@ const Customer = React.lazy(() => import("./pages/Customer"));
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Home = React.lazy(() => import("./pages/Guest/Home"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
+const Notes = React.lazy(() => import("./pages/Notes"));
 
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
@@ -51,6 +52,7 @@ function App() {
           <Route path="/UserlIst" element={<UserList />} />
           <Route path="/Products" element={<Products />} />
           <Route path="/products/:id" element={<ProductDetail />} /> 
+          <Route path="/Notes" element={<Notes/>} /> 
         </Route>
 
         <Route element={<MainLayoutGuest />}>
