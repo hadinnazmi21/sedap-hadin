@@ -15,7 +15,6 @@ export default function Notes() {
   const [dataForm, setDataForm] = useState({
     title: "",
     content: "",
-    status: "",
   });
 
   const handleChange = (e) => {
@@ -42,7 +41,7 @@ export default function Notes() {
         setSuccess("Catatan berhasil ditambahkan!");
       }
 
-      setDataForm({ title: "", content: "", status: "" });
+      setDataForm({ title: "", content: "" });
       setEditingId(null);
       setTimeout(() => setSuccess(""), 3000);
       loadNotes();
@@ -158,7 +157,7 @@ export default function Notes() {
                 type="button"
                 onClick={() => {
                   setEditingId(null);
-                  setDataForm({ title: "", content: "", status: "" });
+                  setDataForm({ title: "", content: "" });
                 }}
                 className="px-6 py-3 bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold
                         rounded-2xl transition-all"
@@ -190,7 +189,7 @@ export default function Notes() {
 
         {!loading && notes.length > 0 && (
           <GenericTable
-            columns={["#", "Judul", "Isi", "Status", "Aksi"]}
+            columns={["#", "Judul", "Isi", "Aksi"]}
             data={notes}
             renderRow={(note, index) => (
               <>
@@ -203,7 +202,6 @@ export default function Notes() {
                 <td className="px-6 py-4 text-gray-600 max-w-xs truncate">
                   {note.content}
                 </td>
-                <td className="px-6 py-4 text-gray-500">{note.status}</td>
                 <td className="px-6 py-4 flex gap-4">
                   <button
                     onClick={() => {
@@ -211,7 +209,6 @@ export default function Notes() {
                       setDataForm({
                         title: note.title,
                         content: note.content,
-                        status: note.status,
                       });
                     }}
                     disabled={loading}
